@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4BFD2A1D14793800F123AD /* city-skyline-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BFD291D14793800F123AD /* city-skyline-hi.png */; };
+		BF4BFD2C1D14794000F123AD /* city1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF4BFD2B1D14794000F123AD /* city1.gif */; };
 		BFBF97A41D137BCF006FD5D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF97A31D137BCF006FD5D5 /* AppDelegate.swift */; };
 		BFBF97A61D137BCF006FD5D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBF97A51D137BCF006FD5D5 /* ViewController.swift */; };
 		BFBF97A91D137BCF006FD5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBF97A71D137BCF006FD5D5 /* Main.storyboard */; };
 		BFBF97AB1D137BCF006FD5D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFBF97AA1D137BCF006FD5D5 /* Assets.xcassets */; };
 		BFBF97AE1D137BCF006FD5D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBF97AC1D137BCF006FD5D5 /* LaunchScreen.storyboard */; };
+		BFBF97B61D137C52006FD5D5 /* xatdefect-deep-blue-ipad-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFBF97B51D137C52006FD5D5 /* xatdefect-deep-blue-ipad-wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF4BFD291D14793800F123AD /* city-skyline-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city-skyline-hi.png"; sourceTree = "<group>"; };
+		BF4BFD2B1D14794000F123AD /* city1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = city1.gif; sourceTree = "<group>"; };
 		BFBF97A01D137BCF006FD5D5 /* I see you.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I see you.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBF97A31D137BCF006FD5D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFBF97A51D137BCF006FD5D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		BFBF97AA1D137BCF006FD5D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFBF97AD1D137BCF006FD5D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFBF97AF1D137BCF006FD5D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBF97B51D137C52006FD5D5 /* xatdefect-deep-blue-ipad-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xatdefect-deep-blue-ipad-wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				BFBF97A71D137BCF006FD5D5 /* Main.storyboard */,
 				BFBF97AA1D137BCF006FD5D5 /* Assets.xcassets */,
 				BFBF97AC1D137BCF006FD5D5 /* LaunchScreen.storyboard */,
+				BF4BFD291D14793800F123AD /* city-skyline-hi.png */,
+				BF4BFD2B1D14794000F123AD /* city1.gif */,
+				BFBF97B51D137C52006FD5D5 /* xatdefect-deep-blue-ipad-wallpaper.jpg */,
 				BFBF97AF1D137BCF006FD5D5 /* Info.plist */,
 			);
 			path = "I see you";
@@ -124,7 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFBF97AE1D137BCF006FD5D5 /* LaunchScreen.storyboard in Resources */,
+				BFBF97B61D137C52006FD5D5 /* xatdefect-deep-blue-ipad-wallpaper.jpg in Resources */,
 				BFBF97AB1D137BCF006FD5D5 /* Assets.xcassets in Resources */,
+				BF4BFD2C1D14794000F123AD /* city1.gif in Resources */,
+				BF4BFD2A1D14793800F123AD /* city-skyline-hi.png in Resources */,
 				BFBF97A91D137BCF006FD5D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +301,7 @@
 				BFBF97B41D137BCF006FD5D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
